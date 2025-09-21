@@ -3,9 +3,7 @@ import webbrowser
 import pyttsx3  
 import musiclibrary
 import requests
-
 #pip install pocketsphinx and google sr
-
 recognizer = sr.Recognizer()
 engine = pyttsx3.init()
 newsapi = ""
@@ -67,4 +65,5 @@ if __name__ == "__main__":
 
         except Exception as e:
             print("Error; {0}".format(e))  
+
 
